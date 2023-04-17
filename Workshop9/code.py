@@ -13,7 +13,7 @@ import warnings
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 
 def makeConn():
-    hvc_client = client = hvac.Client(url='http://127.0.0.1:8200', token='hvs.YYcFVgt2sy3qoCZ6Iz5kppan' ) 
+    hvc_client = client = hvac.Client(url='http://127.0.0.1:8200', token='hvs.TOKEN' ) 
     return hvc_client 
 
 def storeSecret( client,  secr1 , cnt  ):
